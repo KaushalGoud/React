@@ -1,3 +1,5 @@
+import React from "react"
+import ReactDOM from "react-dom/client"
 const root=ReactDOM.createRoot(document.getElementById("root"))
 const element=React.createElement("div",{id:"parent",key:"parent"},[
 React.createElement("div",{id:"child",key:"child"},
