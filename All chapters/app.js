@@ -4,12 +4,13 @@ import ReactDOM from "react-dom/client";
 // const Heading=React.createElement("div",{id:"parent"},"Hello I am inside div");
 // console.log(Heading)
 const Name = "Kaushal";
-const JsxElement = () => (
+const JsxElement = ( props) => (
   <h1>Hello world I am JSX different than react I am written by{Name}</h1>
 );
+
 const Heading = () => (
   <div>
-    <JsxElement />
+    <JsxElement >I am in middle</JsxElement>
     <h1>This is a Junctional react based component</h1>
   </div>
 );
