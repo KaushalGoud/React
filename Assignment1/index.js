@@ -9,3 +9,4 @@ const heading = React.createElement(
   )
 );
 root.render(heading);
+console.log(root)
