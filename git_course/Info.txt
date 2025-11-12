@@ -1,2 +1,0 @@
-Git is a software  version control system that tracks changes
-Github is a platform where git is hosted online platform
